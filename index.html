@@ -10,27 +10,37 @@
 	</head>
 
 	<body>
-
 		<div class="wrapper">
+
 			<header class="header">
-				<div class="header__top">
+				<!-- Top Header Section -->
+				<div class="header__top top-section">
 					<div class="container">
 						<nav class="nav">
 							<ul class="nav__list top-section__list">
-								<li class="nav__item"><a href="#" class="nav__link">Delivery</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Payment</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Reviews</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Delivery</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Payment</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Reviews</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">FAQ</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Contacts</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
 				</div>
 
-				<!-- Main section with logo, contact info, and divider -->
+				<!-- Main Header Section -->
 				<div class="header__main main-section">
 					<div class="container">
-						<!-- Logo as a link to the root page -->
 						<div class="main-section__wrapper">
 
 							<a href="#" class="main-section__logo logo">
@@ -38,53 +48,64 @@
 							</a>
 
 							<div class="contact-info main-section__contact-info">
-								<a href="tel:1 (213) 123-45-67" class="contact-info__phone">1 (213) 123-45-67</a>
+								<a class="contact-info__phone" href="tel:12131234567">1 (213) 123-45-67</a>
 								<button class="btn contact-info__callback-btn">Call back</button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Divider line -->
-				<div class="divider"></div>
-
+				<!-- Bottom Header Section -->
 				<div class="header__bottom bottom-section">
-					<div class="container bottom-section__container">
-						<nav class="nav ">
+					<div class="container">
+						<nav class="nav">
 							<ul class="nav__list bottom-section__list">
-								<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Services</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Gallery</a></li>
-								<li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Home</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">About Us</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Services</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Gallery</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">Contact Us</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
 				</div>
+
 			</header>
 
 			<main class="main">
-
+				<!-- Hero Section -->
 				<section class="hero">
 					<div class="container">
 						<div class="hero__wrapper">
 							<div class="hero__content">
 								<h1 class="hero__title">Super chair</h1>
-								<p class="hero__description">The text of the action always reflects the essence, and not just
-									chatter, so be careful</p>
+								<p class="hero__description">
+									The text of the action always reflects the essence, and not just chatter, so be careful
+								</p>
 								<button class="hero__btn">More</button>
 							</div>
 						</div>
 					</div>
 				</section>
 
-
+				<!-- Offers Section -->
 				<section class="offers">
 					<div class="container">
 						<h2 class="offers__heading heading">Special offers</h2>
-						<ul class="cards__list">
 
-							<li class="cards__item">
+						<ul class="cards__list cards__list">
+
+							<li class="cards__item offers__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -93,7 +114,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item offers__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -102,7 +123,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item offers__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -111,7 +132,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item offers__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -119,37 +140,36 @@
 									<button class="cards__btn">Buy</button>
 								</div>
 							</li>
-
 						</ul>
+
 					</div>
 				</section>
 
+				<!-- Contact Section -->
 				<section class="contact">
 					<div class="container">
 						<div class="contact__wrapper">
 
-							<!-- Monthly Bonuses Block -->
-							<div class="contact-block bonuses">
+							<div class="contact-block contact__block--bonuses">
 								<div class="contact__left">
 									<h4 class="contact__title">Monthly Bonuses</h4>
 									<p class="contact__description">Every month we play $11,000 for our clients</p>
-									<input type="email" name="email" id="emailInput" class="contact__input"
+									<input class="contact__input" type="email" name="email" id="emailInput"
 										placeholder="Enter your e-mail">
 								</div>
 								<div class="contact__right">
-									<img src="./assets/images/envelope.svg" alt="Envelope Icon" class="contact__icon">
+									<img class="contact__icon" src="./assets/images/envelope.svg" alt="Envelope Icon">
 								</div>
 							</div>
 
-							<!-- Visit Us Block -->
-							<div class="contact-block visit-us">
+							<div class="contact-block contact__block--visit-us">
 								<div class="contact__left">
 									<h4 class="contact__title">Visit Us</h4>
 									<p class="contact__description">Over 300 stores throughout the USA</p>
-									<a href="#" class="btn--store-map">Store Map</a>
+									<a class="btn--store-map" href="#">Store Map</a>
 								</div>
 								<div class="contact__right">
-									<img src="./assets/images/van.svg" alt="Van Icon" class="contact__icon">
+									<img class="contact__icon" src="./assets/images/van.svg" alt="Van Icon">
 								</div>
 							</div>
 
@@ -157,44 +177,58 @@
 					</div>
 				</section>
 
-
+				<!-- Clients Section  -->
 				<section class="clients">
 					<div class="container">
 						<div class="clients__wrapper">
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
-							<div class="clients__item"><img src="./assets/images/client.png" alt="Client Image" class="clients__img">
+							<div class="clients__item">
+								<img class="clients__img" src="./assets/images/client.png" alt="Client Image">
 							</div>
 						</div>
 					</div>
 				</section>
 
+				<!-- Recently Viewed Section -->
 				<section class="recently-viewed">
 					<div class="container">
-						<h2 class="heading">Have you recently viewed</h2>
-						<ul class="cards__list">
+						<h2 class="heading recently-viewed__heading">Have you recently viewed</h2>
 
-							<li class="cards__item">
+						<ul class="cards__list recently-viewed__list">
+
+							<li class="cards__item recently-viewed__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -203,7 +237,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item recently-viewed__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -212,7 +246,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item recently-viewed__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -221,7 +255,7 @@
 								</div>
 							</li>
 
-							<li class="cards__item">
+							<li class="cards__item recently-viewed__item">
 								<div class="cards__content">
 									<img src="./assets/images/product.png" alt="product">
 									<h3 class="cards__heading">Hairdressing chair "Norm" hydraulic</h3>
@@ -229,6 +263,7 @@
 									<button class="cards__btn">Buy</button>
 								</div>
 							</li>
+
 						</ul>
 					</div>
 				</section>
@@ -238,88 +273,84 @@
 				<div class="footer__top">
 					<div class="container">
 						<div class="footer__top-content">
+
 							<div class="footer__top-column">
 								<h3 class="footer__top-heading">Popular categories</h3>
-								<div class="divider"></div>
 								<ul class="footer__top-list">
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Nozzles</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Tools</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Gel polishes</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Design</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Building</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Equipment</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Nozzles</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Tools</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Gel polishes</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Design</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Building</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Equipment</a></li>
 								</ul>
 							</div>
 
 							<div class="footer__top-column">
 								<h3 class="footer__top-heading">Popular categories</h3>
-								<div class="divider"></div>
+
 								<ul class="footer__top-list">
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Nozzles</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Tools</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Gel polishes</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Design</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Building</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Equipment</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Nozzles</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Tools</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Gel polishes</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Design</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Building</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Equipment</a></li>
 								</ul>
 							</div>
 
 							<div class="footer__top-column">
 								<h3 class="footer__top-heading">Popular categories</h3>
-								<div class="divider"></div>
+
 								<ul class="footer__top-list">
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Nozzles</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Tools</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Gel polishes</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Design</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Building</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Equipment</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Nozzles</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Tools</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Gel polishes</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Design</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Building</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Equipment</a></li>
 								</ul>
 							</div>
 
 							<div class="footer__top-column">
 								<h3 class="footer__top-heading">Popular categories</h3>
-								<div class="divider"></div>
+
 								<ul class="footer__top-list">
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Nozzles</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Tools</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Gel polishes</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Design</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Building</a></li>
-									<li class="footer__top-item"><a href="#" class="footer__top-link">Equipment</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Nozzles</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Tools</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Gel polishes</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Design</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Building</a></li>
+									<li class="footer__top-item"><a class="footer__top-link" href="#">Equipment</a></li>
 								</ul>
 							</div>
-
 						</div>
 					</div>
 				</div>
-
-				<!-- Divider line -->
-				<div class="divider"></div>
 
 				<div class="footer__middle">
 					<div class="container">
 						<div class="footer__middle-wrapper">
 							<ul class="footer__middle-list">
 								<li class="footer__middle-item">
-									<a href="#" class="footer__middle-link">
+									<a class="footer__middle-link" href="#">
 										<img src="./assets/images/youtube.svg" alt="youtube">
 									</a>
 								</li>
 								<li class="footer__middle-item">
-									<a href="#" class="footer__middle-link">
+									<a class="footer__middle-link" href="#">
 										<img src="./assets/images/facebook.svg" alt="facebook">
 									</a>
 								</li>
 								<li class="footer__middle-item">
-									<a href="#" class="footer__middle-link">
+									<a class="footer__middle-link" href="#">
 										<img src="./assets/images/instagram.svg" alt="instagram">
 									</a>
 								</li>
 							</ul>
 
 							<div class="contact-info footer__contact-info">
-								<a href="tel:1 (213) 123-45-67" class="contact-info__phone">1 (213) 123-45-67</a>
+								<a class="contact-info__phone" href="tel:12131234567">1 (213) 123-45-67</a>
 								<button class="btn contact-info__callback-btn">Call back</button>
 							</div>
 						</div>
@@ -335,14 +366,14 @@
 							</p>
 
 							<p class="footer__bottom-text">
-								<a href="#" class="footer__bottom-link">Privacy Policy</a>
+								<a class="footer__bottom-link" href="#">Privacy Policy</a>
 							</p>
 						</div>
 					</div>
 				</div>
 			</footer>
-		</div>
 
+		</div>
 	</body>
 
 </html>
